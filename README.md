@@ -20,6 +20,7 @@ root@beaglebone: ps | grep ttyUSB0
 
 root@beaglebone:
 
+
 In my case, I had to eliminate disturbing gps service by deleting the line in /etc/venus/serial-starter.conf
 
 
