@@ -25,6 +25,7 @@ In my case, I had to eliminate disturbing gps service by deleting the line in /e
 
 
 Now you can test the driver starting it from command line:
+
 nohup  /opt/victronenergy/epsolar/dbus_epsolar.py
 
 
