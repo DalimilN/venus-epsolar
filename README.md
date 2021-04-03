@@ -10,7 +10,7 @@ All you need is working RS458 (or RS232 in my model case) connection like ttyUSB
 Unfortunalelly, original, Exar based RS485 USB Cable supplied with EPsolar charger is not working  with Venus GX 
 
 Installing:
-After succcesfull installation of RS485 dongle, you should esure free communication for your ttyUSB0 port:
+After succcesfull installation of RS485 dongle, you should ensure free communication for your ttyUSB0 port:
 
 your ps | grep ttyUSB0 command result should look like this:
 
