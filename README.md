@@ -14,9 +14,9 @@ After succcesfull installation of RS485 dongle, you should ensure free communica
 
 your ps | grep ttyUSB0 command result should look like this:
 
-root@beaglebone:~# ps | grep ttyUSB0
+root@beaglebone: ps | grep ttyUSB0
  1948 root      2244 S    grep ttyUSB0
-root@beaglebone:~#
+root@beaglebone:
 
 In my case, I had to eliminate disturbing gps service by deleting the line in /etc/venus/serial-starter.conf
 
