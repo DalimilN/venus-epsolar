@@ -23,10 +23,16 @@ root@beaglebone:
 
 In my case, I had to eliminate disturbing gps service by deleting the line in /etc/venus/serial-starter.conf
 
+Unzip contennt of compette installation from fie epsolar.zip in your directory.
 
-Now you can test the driver starting it from command line:
+Now you can test the driver starting it from the command line:
 
 nohup  /opt/victronenergy/epsolar/dbus_epsolar.py
+
+Note: nohup ensures running the driver also after closing your console.
+For testing only in openned console window with visible logging, you can start progam without nohub:
+
+/opt/victronenergy/epsolar/dbus_epsolar.py
 
 
 Enjoy!
