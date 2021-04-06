@@ -23,7 +23,8 @@ root@beaglebone:
 
 In my case, I had to eliminate disturbing gps service by deleting the line in /etc/venus/serial-starter.conf
 
-Unzip contennt of compette installation from fie epsolar.zip in your directory.
+Unzip contennt of compette installation with includes from file epsolar.zip in your /opt/victronenergy/  directory.
+(or create link ln-s to your directory placement)
 
 Now you can test the driver starting it from the command line:
 
